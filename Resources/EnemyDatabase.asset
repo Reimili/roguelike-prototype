@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdb61a6aeb6ffe419cc13c8b96bfd3a, type: 3}
+  m_Name: EnemyDatabase
+  m_EditorClassIdentifier: 
+  allEnemies:
+  - enemyData: {fileID: 11400000, guid: 05a26f533938b6542ae9462f6ba09ba5, type: 2}
+    levels: 0100000002000000
+    isEnabled: 1
+  - enemyData: {fileID: 11400000, guid: 93b3164f7d5a8c547b843f0db61164bd, type: 2}
+    levels: 0100000002000000
+    isEnabled: 1
+  - enemyData: {fileID: 11400000, guid: 64da0209443288042be0e61d0eb53ae5, type: 2}
+    levels: 0200000003000000
+    isEnabled: 1
+  - enemyData: {fileID: 11400000, guid: a62050a487c95434fafeac8b12a8361a, type: 2}
+    levels: 0100000003000000
+    isEnabled: 1
+  levelSettings:
+  - level: 1
+    roomBudgetMin: 4
+    roomBudgetMax: 8
+    maxEnemiesPerRoom: 5
+    eliteChance: 0
+  - level: 2
+    roomBudgetMin: 6
+    roomBudgetMax: 12
+    maxEnemiesPerRoom: 7
+    eliteChance: 0
+  - level: 3
+    roomBudgetMin: 8
+    roomBudgetMax: 14
+    maxEnemiesPerRoom: 9
+    eliteChance: 0
