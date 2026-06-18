@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be08b3678d802d642b63041b19bb1901, type: 3}
+  m_Name: SPE
+  m_EditorClassIdentifier: 
+  itemName: Stinky Shoe
+  itemId: SPE
+  icon: {fileID: 21300000, guid: 7440682865f9dfd47b7b9d74653a23b7, type: 3}
+  description: speed boost
+  itemType: 0
+  rarity: 2
+  statModifiers:
+  - statType: 1
+    modifierType: 1
+    value: 0.4
+  effects: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7323dd0547c0e41aafd72446cbb2c9, type: 3}
+  m_Name: BomberGoblin
+  m_EditorClassIdentifier: 
+  enemyName: Bomber
+  prefab: {fileID: 1749415057612790318, guid: 39b7a9afef4d29a4d97636b2a42d428c, type: 3}
+  sprite: {fileID: 21300000, guid: 73be17976fabe9441b0aa54e60d66aca, type: 3}
+  category: 0
+  minLevel: 1
+  maxLevel: 99
+  health: 5
+  damage: 1
+  moveSpeed: 2
+  spawnCost: 2
+  maxPerRoom: 5
+  spawnWeight: 10
+  healthPerLevel: 1
+  damagePerLevel: 0.5

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7323dd0547c0e41aafd72446cbb2c9, type: 3}
+  m_Name: MinionSpider
+  m_EditorClassIdentifier: 
+  enemyName: SpiderMinion
+  prefab: {fileID: 6230905432431678513, guid: f8886956c12f08940bff4d56d924ac53, type: 3}
+  sprite: {fileID: 21300000, guid: 0e213fae7e6f4714d9c19add2adbeca5, type: 3}
+  category: 0
+  minLevel: 1
+  maxLevel: 99
+  health: 1
+  damage: 1
+  moveSpeed: 5
+  spawnCost: 2
+  maxPerRoom: 5
+  spawnWeight: 10
+  healthPerLevel: 1
+  damagePerLevel: 0.5
